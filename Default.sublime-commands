@@ -1,0 +1,4 @@
+[
+	{ "caption": "MD Side By Side: Toggle Preview", "command": "md_side_by_side" },
+	{ "caption": "MD Side By Side: Refresh Preview", "command": "md_side_by_side_refresh" }
+]

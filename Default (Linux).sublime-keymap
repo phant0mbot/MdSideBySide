@@ -1,0 +1,7 @@
+[
+	{
+		"keys": ["ctrl+alt+m"],
+		"command": "md_side_by_side",
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }]
+	}
+]

@@ -1,0 +1,40 @@
+[
+	{
+		"caption": "Preferences",
+		"mnemonic": "n",
+		"id": "preferences",
+		"children": [
+			{
+				"caption": "Package Settings",
+				"mnemonic": "P",
+				"id": "package-settings",
+				"children": [
+					{
+						"caption": "MD Side By Side",
+						"children": [
+							{
+								"caption": "Settings",
+								"command": "open_file",
+								"args": { "file": "${packages}/MdSideBySide/MdSideBySide.sublime-settings" }
+							},
+							{
+								"caption": "Settings – User",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/MdSideBySide.sublime-settings",
+									"contents": "// MD Side By Side user settings\n{\n\t\n}\n"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Key Bindings",
+								"command": "open_file",
+								"args": { "file": "${packages}/MdSideBySide/Default (${platform}).sublime-keymap" }
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
